@@ -1,0 +1,27 @@
+body {
+  font-family: "Proxima Nova";
+  background: #151515;
+  margin: 0px;
+}
+
+.logo {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 16%;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .logo {
+    width: 70%;
+    margin-top: 65%;
+  }
+}
